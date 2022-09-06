@@ -31,7 +31,7 @@ class Poster {
 }
 
 class Results {
-  bool? adult;
+  dynamic adult;
   String? backdropPath;
   List<int>? genreIds;
   int? id;
@@ -42,7 +42,7 @@ class Results {
   String? posterPath;
   String? releaseDate;
   String? title;
-  bool? video;
+  dynamic video;
   num? voteAverage;
   int? voteCount;
 
